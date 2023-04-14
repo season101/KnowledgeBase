@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "5e52b95069c94b00",
+        "id": "db6615480b5e2d31",
         "type": "tabs",
         "children": [
           {
-            "id": "343b9d25d2b37008",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "398ea62d11c9d26a",
+            "id": "1160e9a68c7656dc",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -28,31 +16,41 @@
             }
           },
           {
-            "id": "77bb7a6ab27afd1f",
+            "id": "08f2a946d054b85a",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "attachments/Pasted image 20230411192508.png"
+              }
+            }
+          },
+          {
+            "id": "5ed398db62d818ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu-22.04(Jammy JellyFish)/DevOps Setup.md",
+                "file": "DevOps/Nginx/Nginx.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a08cb741cddaae0b",
+            "id": "8dc65fbfc0b2f72f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Ubuntu-22.04(Jammy JellyFish)/DevOps Setup.md",
+                "file": "DevOps/Nginx/Nginx.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +100,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "25d98b3ccdfd8649",
@@ -118,7 +117,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "collapseAll": false,
+                "file": "DevOps/Nginx/Nginx.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -134,6 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "DevOps/Nginx/Nginx.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +156,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "DevOps/Nginx/Nginx.md"
+              }
             }
           }
         ]
@@ -175,15 +178,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "398ea62d11c9d26a",
+  "active": "5ed398db62d818ca",
   "lastOpenFiles": [
+    "Cuttle Fish/CuttleFish.md",
+    "Cloud/Azure/Arm Templates.md",
+    "Cloud/Azure/Azure.md",
+    "attachments/Pasted image 20230411192508.png",
+    "attachments/Pasted image 20230411193517.png",
+    "attachments",
     "Index.md",
-    "VSCode/VS Code.md",
-    "VSCode",
+    "DevOps/DevOps.md",
+    "DevOps/Nginx/Nginx.md",
+    "DevOps/Nginx",
+    "DevOps",
+    "Ubuntu-22.04(Jammy JellyFish)/Post Installation Setup.md",
     "Ubuntu-22.04(Jammy JellyFish)/Developer Setup.md",
     "Ubuntu-22.04(Jammy JellyFish)/DevOps Setup.md",
+    "attachments/Pasted image 20230411193641.png",
+    "attachments/Pasted image 20230411193540.png",
+    "Cloud/Azure",
+    "Cloud",
+    "VSCode/VS Code.md",
+    "Cuttle Fish",
     "Ubuntu-22.04(Jammy JellyFish)/Ubuntu 22.04 - Jammy JellyFish.md",
-    "Ubuntu-22.04(Jammy JellyFish)/Post Installation Setup.md",
+    "VSCode",
     "Ubuntu-22.04(Jammy JellyFish)"
   ]
 }

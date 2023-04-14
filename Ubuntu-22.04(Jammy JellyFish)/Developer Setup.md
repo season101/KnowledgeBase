@@ -45,6 +45,13 @@ sudo apt install python3-venv # To install venv
  deactivate # To deactivate the environment
 ```
 
+### MySql Dependency
+
+For issue with pip install mysqlclient:
+```bash
+sudo apt-get install libmysqlclient-dev
+```
+
 ## Node.js 
 This is essential because the apt repository for ubuntu has only node version of 12. To get the latest stable v18, do the following from the terminal:
 ```bash

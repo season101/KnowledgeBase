@@ -116,7 +116,7 @@ gsettings set org.gnome.desktop.interface show-battery-percentage true
 # Essential Cmd Tools
 
 ```bash
-sudo apt install curl
+sudo apt install curl git git-core net-toolslea
 ```
 
 # Essential Tools
@@ -161,6 +161,10 @@ From flatpak: https://flathub.org/home , get the installation command:
 ```bash
 flatpak install flathub com.github.IsmaelMartinez.teams_for_linux
 ```
+
+## Prospect Mail
+Alternative to Outlook for email.
+Install it via Ubuntu Software. (**Prospect Mail**)
 
 ## Draw.io
 From flatpak: https://flathub.org/home , get the installation command:
