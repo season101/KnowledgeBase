@@ -12,13 +12,24 @@ For serving a sample application, create a configuration file for the applicatio
 `my-angular-app.conf`
 
 ```nginx
-server {
-	listen 80;
-	server_name my-angular-app.com;
-	root /var/www/my-angular-app;
+events {
+    worker_connections 4096;
 }
-location / {
-	try files $uri $uri/ /index.html;
+
+http {
+    server {
+        listen 80;
+        server_name localhost;
+        root /var/www/angular-pmac;
+        index index.html;
+        
+        location  /api {
+            rewrite /api(.*) /$1  break;
+            proxy_pass         http://localhost:8000;
+            proxy_redirect     off;
+            proxy_set_header   Host $host;
+        }
+    }
 }
 ```
 
@@ -31,4 +42,3 @@ location / {
 nginx -t #checks if configuration is ok
 systemctl start nginx
 ```
-

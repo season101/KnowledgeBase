@@ -11,17 +11,23 @@
             "id": "1160e9a68c7656dc",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "DevOps/Nginx/Nginx.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
-            "id": "08f2a946d054b85a",
+            "id": "f298143eb14a5837",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "attachments/Pasted image 20230411192508.png"
+                "file": "projects/Angular+Flask+Nginx+AWS/Angular, Flask, Nginx and AWS Project.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -38,19 +44,19 @@
             }
           },
           {
-            "id": "8dc65fbfc0b2f72f",
+            "id": "ab24d5c60c684815",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DevOps/Nginx/Nginx.md",
+                "file": "DevOps/Gunicorn/Gunicorn.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "25d98b3ccdfd8649",
@@ -117,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DevOps/Nginx/Nginx.md",
+                "file": "projects/Angular+Flask+Nginx+AWS/Angular, Flask, Nginx and AWS Project.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DevOps/Nginx/Nginx.md",
+                "file": "projects/Angular+Flask+Nginx+AWS/Angular, Flask, Nginx and AWS Project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DevOps/Nginx/Nginx.md"
+                "file": "projects/Angular+Flask+Nginx+AWS/Angular, Flask, Nginx and AWS Project.md"
               }
             }
           }
@@ -178,21 +183,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5ed398db62d818ca",
+  "active": "f298143eb14a5837",
   "lastOpenFiles": [
+    "DevOps/Nginx/Nginx.md",
+    "projects/Angular+Flask+Nginx+AWS/Angular, Flask, Nginx and AWS Project.md",
+    "projects/Angular+Flask+Nginx+AWS",
+    "DevOps/Gunicorn/Gunicorn.md",
+    "Ubuntu-22.04(Jammy JellyFish)/Developer Setup.md",
+    "projects",
+    "DevOps/Gunicorn",
+    "attachments/Pasted image 20230411192508.png",
     "Cuttle Fish/CuttleFish.md",
     "Cloud/Azure/Arm Templates.md",
     "Cloud/Azure/Azure.md",
-    "attachments/Pasted image 20230411192508.png",
     "attachments/Pasted image 20230411193517.png",
     "attachments",
     "Index.md",
     "DevOps/DevOps.md",
-    "DevOps/Nginx/Nginx.md",
     "DevOps/Nginx",
     "DevOps",
     "Ubuntu-22.04(Jammy JellyFish)/Post Installation Setup.md",
-    "Ubuntu-22.04(Jammy JellyFish)/Developer Setup.md",
     "Ubuntu-22.04(Jammy JellyFish)/DevOps Setup.md",
     "attachments/Pasted image 20230411193641.png",
     "attachments/Pasted image 20230411193540.png",
@@ -201,7 +211,6 @@
     "VSCode/VS Code.md",
     "Cuttle Fish",
     "Ubuntu-22.04(Jammy JellyFish)/Ubuntu 22.04 - Jammy JellyFish.md",
-    "VSCode",
-    "Ubuntu-22.04(Jammy JellyFish)"
+    "VSCode"
   ]
 }
