@@ -68,7 +68,7 @@ sudo apt install deja-dup
 
 I find it easier to save backups in the google drive which requires additional package to be installed:
 ```bash
-sudo apt install python3-drive
+sudo apt install python3-pydrive
 ```
 
 # Install Flatpak
