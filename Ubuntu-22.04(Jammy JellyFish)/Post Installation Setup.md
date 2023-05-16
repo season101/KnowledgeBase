@@ -116,7 +116,7 @@ gsettings set org.gnome.desktop.interface show-battery-percentage true
 # Essential Cmd Tools
 
 ```bash
-sudo apt install curl git git-core net-toolslea
+sudo apt install curl git git-core net-tools
 ```
 
 # Essential Tools
