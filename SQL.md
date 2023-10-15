@@ -185,3 +185,40 @@ use **FORCE**
 	Experiment
 ## Review Data Model Diagram
 ![[Pasted image 20231010212444.png]]
+
+## Define Problem Statement for SQL Queries
+Statement 1: Complete daily product revenue considering "complete" or "closed" orders.
+Refer to the data model as they reveal a lot of information related to the problem statement.
+We will work towards this problem statement in incremental fashion.
+## Filtering Data using SQL Queries
+Step 1: Getting "complete" or "closed" orders.
+For given database, we observe that following are various **order_status** available to us.
+```sql
+SELECT DISTINCT order_status FROM orders;
+"COMPLETE"
+"ON_HOLD"
+"PENDING_PAYMENT"
+"PENDING"
+"CLOSED"
+"CANCELED"
+"PROCESSING"
+"PAYMENT_REVIEW"
+"SUSPECTED_FRAUD"
+```
+
+Getting the Orders that has "COMPLETE" or "CLOSED" status:
+```sql
+SELECT * FROM orders 
+WHERE order_status= 'COMPLETE' 
+OR order_status = 'CLOSED';
+```
+
+Alternatively, for this kind of scenario **IN** operator is recommended for better readability and flexibility.
+eg:
+```sql
+SELECT * FROM orders 
+WHERE order_status IN ('COMPLETE','CLOSED');
+```
+
+This helps in creating the prepared statements in program effectively.
+## Total Aggregations using SQL Queries
