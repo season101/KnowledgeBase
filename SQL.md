@@ -222,3 +222,46 @@ WHERE order_status IN ('COMPLETE','CLOSED');
 
 This helps in creating the prepared statements in program effectively.
 ## Total Aggregations using SQL Queries
+### AKA Global Aggregations
+We aggregate without specifying specific columns as a part of group by. Getting count from specific column is considered global aggregation. Getting revenue for particular product id is global aggregation. eg: COUNT, TOTAL using SUM, MIN, MAX, AVG.
+eg: 
+```sql
+SELECT COUNT(DISTINCT order_status) FROM orders;
+```
+eg: 
+```sql
+SELECT SUM(order_item_subtotal) FROM order_items;
+```
+
+## Group By Aggregations using SQL Queries
+### AKA By Key Aggregations
+eg:
+
+Aggregation by order_status:
+```sql
+SELECT order_status, count(*) AS order_count FROM orders
+GROUP BY 1
+ORDER BY 2 DESC
+;
+```
+Result: 
+![[Pasted image 20231014195234.png]]
+Aggregation by order_date:
+
+```sql
+SELECT order_date, count(*) AS order_count FROM orders
+GROUP BY 1
+ORDER BY 2 DESC;
+```
+
+Result
+![[Pasted image 20231014195314.png]]
+
+**Trick**: to get order by months:
+```sql
+SELECT to_char(order_date,'yyyy-MM') AS order_month, count(*) AS order_count FROM orders
+GROUP BY 1
+ORDER BY 1 ASC;
+```
+RESULT:
+![[Pasted image 20231014195821.png]]
