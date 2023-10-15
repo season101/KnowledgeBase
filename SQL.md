@@ -60,7 +60,7 @@ OLTP: Online Transactional Processing
 OLAP: Online Analytical Processing
 DSS: Decision Support System
 
-## Setup Tools for Data Engineering Essentials
+# Setup Tools for Data Engineering Essentials
 ### IDE: VS Code
 ### Python 3.9
 ### Postgres 14
@@ -174,3 +174,14 @@ CREATE TABLE order_items (
 );
 ```
 
+
+# Writing Basic SQL Queries
+Note:
+use **FORCE**
+	Focus
+	Observe
+	Read
+	Comprehend
+	Experiment
+## Review Data Model Diagram
+![[Pasted image 20231010212444.png]]
